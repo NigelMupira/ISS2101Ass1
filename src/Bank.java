@@ -45,5 +45,7 @@ public class Bank {
     public static void main(String[] args) {
         // Creating an instance of the Bank class
         Bank myAccount = new Bank("N.M.", 230828);
+
+        myAccount.display();
     }
 }
