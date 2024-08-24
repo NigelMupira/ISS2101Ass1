@@ -38,7 +38,7 @@ public class Bank {
 
     // Method to display the account details
     public void display() {
-        System.out.println("You have a " + accountType + " account and the balance is " + accountBalance);
+        System.out.println("The account type is " + accountType + " and the balance is " + accountBalance);
     }
 
     // Example usage
