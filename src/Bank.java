@@ -16,4 +16,17 @@ public class Bank {
         // Return the updated account balance
         return accountBalance;
     }
+
+    // Method to withdraw money from the account
+    public double withdrawal(double amount) {
+        // Ensure the withdrawal amount is positive and does not exceed the account balance
+        if (amount > 0 && amount <= accountBalance) {
+            accountBalance -= amount;
+        }
+        else {
+            System.out.println("Invalid transaction!");
+        }
+        // Return the updated account balance
+        return accountBalance;
+    }
 }
