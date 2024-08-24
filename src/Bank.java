@@ -40,4 +40,10 @@ public class Bank {
     public void display() {
         System.out.println("You have a " + accountType + " account and the balance is " + accountBalance);
     }
+
+    // Example usage
+    public static void main(String[] args) {
+        // Creating an instance of the Bank class
+        Bank myAccount = new Bank("N.M.", 230828);
+    }
 }
