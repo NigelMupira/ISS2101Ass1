@@ -35,4 +35,9 @@ public class Bank {
         // Return the updated account balance
         return accountBalance;
     }
+
+    // Method to display the account details
+    public void display() {
+        System.out.println("The account type is " + accountType + " and the balance is " + accountBalance);
+    }
 }
