@@ -17,5 +17,5 @@
 * Harare Institute of Technology
 * School of Information Science and Technology
 * **Degree:** (BSc) Information Security and Assurance
-* **Course:** ISS2101: Secure Coding
+* **Course:** ISS2101 Secure Coding
 * **Lecturer:** Benjamin Nyaruviro (bnyaruviro@hit.ac.zw)
